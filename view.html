@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image Refresher</title>
+  <meta charset="utf-8">
+  <style>
+  	body {
+  		background-color: lightblue;
+  		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	
+  </style>
+</head>
+
+<body>
+<div class="header">
+	<h1> iSee Security Cam Viewer </h1>
+</div>
+  <iframe id="myFrame" src="http://192.168.1.68/security/cam.jpg" width="1000" height="1000"></iframe>
+
+  <script>
+    // Get the iframe element
+    var frame = document.getElementById("myFrame");
+
+    // Set the initial image URL
+    var imgUrl = "http://192.168.1.68/security/cam.jpg";
+
+    // Define the function to refresh the image
+    function refreshImage() {
+      // Generate a random number to prevent caching
+      var cacheBuster = new Date().getTime();
+
+      // Set the new image URL with the cachebuster appended
+      imgUrl = "http://192.168.1.68/security/cam.jpg?cache=" + cacheBuster;
+
+      // Set the src attribute of the iframe element with the new URL
+      frame.setAttribute("src", imgUrl);
+    }
+
+    // Call the refreshImage function every second
+    setInterval(refreshImage, 100);
+  </script>
+</body>
+
+</html>
