@@ -3,5 +3,13 @@ This is A very simple CCTV system that runs on linux that uses the users webcam 
 
 # Requirements
 **Hardware**
-
+- PC
+- Keyboard
+- Monitor
+- Webcam
+- 15 GB free hard drive space (reccomended) 4 G free hard drive space (minimum)
 **Software**
+-Linux Ubuntu 20 or higher
+-Terminal
+-fswebcam
+-Nginx web server
