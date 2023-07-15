@@ -7,6 +7,7 @@ These are the currently supported versions. If you find vulnerbilites in any ver
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0 | :white_check_mark: |
+| 1.1 | :white_check_mark: |
 
 
 ## Reporting a Vulnerability
