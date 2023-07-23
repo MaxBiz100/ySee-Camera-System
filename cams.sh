@@ -1,5 +1,6 @@
 #!/bin/bash
 echo INITALIZING......
+#ySee Security. Copyright 2023 ySee.  
 # Set up variables
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 webcam_image="/var/www/html/security/cam.jpg"
