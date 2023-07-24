@@ -11,7 +11,7 @@ This is A very simple CCTV system that runs on linux that uses the users webcam 
 
 **Software**
   
-- Linux Ubuntu 20 or higher
+- Linux Ubuntu 24 or higher
 - Terminal
 - fswebcam
 - Nginx web server
