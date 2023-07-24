@@ -31,35 +31,10 @@
     <h1>iSee Security Cam Viewer</h1>
   </div>
 
-  <iframe id="myFrame" src="http://0.0.0.0/security/cam.jpg" width="500" height="300"></iframe>
+  <img id="myFrame" src="http://0.0.0.0/security/cam.jpg" width="500" height="300"></img>
 
   <script>
-    function takeScreenshot() {
-      // Get the iframe element.
-      var iframe = document.getElementById("myFrame");
-
-      // Create a new canvas element.
-      var canvas = document.createElement("canvas");
-      canvas.width = iframe.offsetWidth;
-      canvas.height = iframe.offsetHeight;
-
-      // Create a 2D context for the canvas.
-      var context = canvas.getContext("2d");
-
-      // Draw the iframe content to the canvas.
-      context.drawImage(iframe, 0, 0);
-
-      // Get the data URL of the canvas.
-      var dataURL = canvas.toDataURL("image/png");
-
-      // Download the canvas as an image.
-      var downloadLink = document.createElement("a");
-      downloadLink.href = dataURL;
-      downloadLink.download = "capture.png";
-      downloadLink.click();
-    }
-
-    // Get the iframe element
+        // Get the iframe element
     var frame = document.getElementById("myFrame");
 
     // Set the initial image URL
