@@ -7,7 +7,7 @@ This is A very simple CCTV system that runs on linux that uses the users webcam 
 - Keyboard
 - Monitor
 - Webcam
-- 15 GB free hard drive space (reccomended) 4 G free hard drive space (minimum)
+- 4 GB (reccomended) A day is about 100 MB.
 
 **Software**
   
@@ -31,7 +31,7 @@ This is A very simple CCTV system that runs on linux that uses the users webcam 
 # User Guide
 
 To view the live video feed, go to your browser on any device on the LAN that your PC is on, then type 0.0.0.0/security/view.html into the web browser, where 0.0.0.0 is your Pc's ip on the LAN. (You can get this from ifconfig) 
-You can also review the footage for up to a week by looking in the "snapshots" directory in the security folder of the web server. 
+You can also review the footage by looking in the "snapshots" directory in the security folder of the web server. 
 
 # Troubleshooting
 
